@@ -1,0 +1,209 @@
+/* General Styling */
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.6;
+  padding-top: 56px;
+  margin: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+
+/* Section Heading Styling */
+h1, h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Section Styling */
+section {
+  padding: 50px 0;
+}
+
+.section-1 {
+  background-color: #ffffff;
+  padding: 60px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.section-1 img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Certificates Section */
+#Certificates {
+  background-color: #e9ecef;
+  padding: 60px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#Certificates h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#Certificates img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+/* Achievements Section */
+.Achivements {
+  background-color: #ffffff;
+  padding: 60px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.Achivements mark {
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #e9ecef;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.contact p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+.contact h3 {
+  color: #0d6efd;
+}
+
+/* Button Styling */
+button.cv {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+button.cv:hover {
+  background-color: #0056b3;
+}
+
+button.cv a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button.cv a:hover {
+  color: #e9ecef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-1 {
+      text-align: center;
+  }
+
+  .section-1 img {
+      margin-bottom: 20px;
+  }
+
+  .cv {
+      display: block;
+      width: 100%;
+      text-align: center;
+  }
+
+  .Certificates img {
+      width: 100%;
+      height: auto;
+  }
+
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  h3 {
+      font-size: 1.5rem;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 0.9rem;
+  }
+}
